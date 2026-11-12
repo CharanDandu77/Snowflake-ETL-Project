@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: gpp_raw
+    database: GPP_DB
+    schema: RAW
+    tables:
+      - name: PAYMENTS
