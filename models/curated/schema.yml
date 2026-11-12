@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fct_payments
+    description: "Curated fact model for GPP payment reporting"
+    columns:
+      - name: PAYMENT_ID
+        description: "Unique payment identifier"
+        data_tests:
+          - not_null
+          - unique
